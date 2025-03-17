@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Govind-Rajewar/static/css/main.10852f2c.css",
-    "main.js": "/Govind-Rajewar/static/js/main.f9ce25bc.js",
+    "main.js": "/Govind-Rajewar/static/js/main.5dfe04c2.js",
     "static/js/453.acd06aed.chunk.js": "/Govind-Rajewar/static/js/453.acd06aed.chunk.js",
     "static/media/profile.jpg": "/Govind-Rajewar/static/media/profile.6cacccd0ed7c70da9e04.jpg",
     "index.html": "/Govind-Rajewar/index.html",
     "main.10852f2c.css.map": "/Govind-Rajewar/static/css/main.10852f2c.css.map",
-    "main.f9ce25bc.js.map": "/Govind-Rajewar/static/js/main.f9ce25bc.js.map",
+    "main.5dfe04c2.js.map": "/Govind-Rajewar/static/js/main.5dfe04c2.js.map",
     "453.acd06aed.chunk.js.map": "/Govind-Rajewar/static/js/453.acd06aed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10852f2c.css",
-    "static/js/main.f9ce25bc.js"
+    "static/js/main.5dfe04c2.js"
   ]
 }
