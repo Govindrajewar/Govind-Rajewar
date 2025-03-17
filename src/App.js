@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Govind-Rajewar">
       <div className="app-container">
         <Header />
         <main className="content">
