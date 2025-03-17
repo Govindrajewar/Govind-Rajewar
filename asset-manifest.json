@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/govind-rajewar/static/css/main.10852f2c.css",
-    "main.js": "/govind-rajewar/static/js/main.2c44fad7.js",
-    "static/js/453.1407b060.chunk.js": "/govind-rajewar/static/js/453.1407b060.chunk.js",
-    "static/media/profile.jpg": "/govind-rajewar/static/media/profile.6cacccd0ed7c70da9e04.jpg",
-    "index.html": "/govind-rajewar/index.html",
-    "main.10852f2c.css.map": "/govind-rajewar/static/css/main.10852f2c.css.map",
-    "main.2c44fad7.js.map": "/govind-rajewar/static/js/main.2c44fad7.js.map",
-    "453.1407b060.chunk.js.map": "/govind-rajewar/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/Govind-Rajewar/static/css/main.10852f2c.css",
+    "main.js": "/Govind-Rajewar/static/js/main.f9ce25bc.js",
+    "static/js/453.acd06aed.chunk.js": "/Govind-Rajewar/static/js/453.acd06aed.chunk.js",
+    "static/media/profile.jpg": "/Govind-Rajewar/static/media/profile.6cacccd0ed7c70da9e04.jpg",
+    "index.html": "/Govind-Rajewar/index.html",
+    "main.10852f2c.css.map": "/Govind-Rajewar/static/css/main.10852f2c.css.map",
+    "main.f9ce25bc.js.map": "/Govind-Rajewar/static/js/main.f9ce25bc.js.map",
+    "453.acd06aed.chunk.js.map": "/Govind-Rajewar/static/js/453.acd06aed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10852f2c.css",
-    "static/js/main.2c44fad7.js"
+    "static/js/main.f9ce25bc.js"
   ]
 }
