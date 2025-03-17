@@ -1,7 +1,7 @@
 {
-  "homepage": "https://govindrajewar.github.io/govind-rajewar",
-  "name": "portfolio",
-  "version": "0.1.0",
+  "homepage": "https://govindrajewar.github.io/Govind-Rajewar",
+  "name": "Govind-Rajewar",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
