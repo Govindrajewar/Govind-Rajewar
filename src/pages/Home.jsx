@@ -43,7 +43,7 @@ function Home() {
         </span>
       </h1>
       <h2 className="hero-subtitle">
-        Full Stack Developer | React, Node.js, AI Workbench
+        Full Stack Developer | React | Node.js | Python
       </h2>
       <p className="hero-description">
         I build scalable and high-performance web applications using modern

@@ -1,6 +1,6 @@
 .footer {
   background: #fff;
-  color: #222;
+  color: #FFF;
   padding-bottom: 15px;
   text-align: center;
   width: 100%;
@@ -8,14 +8,25 @@
   bottom: 0;
   left: 0;
   font-weight: bold;
+  margin-top: auto;
 }
 
 .footer-links a {
-  color: #222;
+  color: #FFF;
   text-decoration: none;
   margin: 0 10px;
 }
 
 .footer-links a:hover {
-  color: #000;
+  color: #FFF;
+}
+
+.footer {
+  width: 100%;
+  background: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
 }

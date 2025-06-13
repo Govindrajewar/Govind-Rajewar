@@ -1,0 +1,84 @@
+/* Ensure the projects section takes up available space */
+.projects-container {
+    flex: 1; /* Allows it to take remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start; /* Aligns content at the top */
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 50px; /* Space before footer */
+  }
+
+  /* Styling for the title */
+  .projects-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c3e50;
+  }
+
+  /* Individual project card */
+  .project-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 20px;
+  }
+
+  /* Project text content */
+  .project-text {
+    flex: 1;
+    text-align: left;
+  }
+
+  /* Project image */
+  .project-img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Project links */
+  .project-links {
+    margin-top: 10px;
+  }
+
+  .project-links a {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #2c3e50;
+    transition: color 0.3s;
+  }
+
+  .project-links a:hover {
+    color: #007bff;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .project-card {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .project-img {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+
+  .projects-container {
+    flex: 1;
+    padding-top: 80px; /* Adjusted for fixed header */
+    padding-bottom: 80px; /* Adjusted for fixed footer */
+    max-width: 1200px;
+    margin: auto;
+  }
