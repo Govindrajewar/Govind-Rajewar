@@ -1,30 +1,75 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { FaCode, FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 import "../style/Header.css";
+
+const navLinks = [
+  { path: "/", label: "Home" },
+  { path: "/experience", label: "Experience" },
+  { path: "/skills", label: "Skills" },
+  { path: "/projects", label: "Projects" },
+  { path: "/contact", label: "Contact" },
+];
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  const closeMenu = () => setIsOpen(false);
 
   return (
     <header className="header">
       <div className="container">
-        <div className="logo">
-          <span>🔓</span> <strong>Govind Rajewar</strong>
+        <Link to="/" className="logo" onClick={closeMenu}>
+          <FaCode className="logo-icon" />
+          <strong>Govind Rajewar</strong>
+        </Link>
+
+        <nav className={`nav-links ${isOpen ? "open" : ""}`}>
+          {navLinks.map((link) => (
+            <Link
+              key={link.path}
+              to={link.path}
+              className={location.pathname === link.path ? "active" : ""}
+              onClick={closeMenu}
+            >
+              {link.label}
+            </Link>
+          ))}
+        </nav>
+
+        <div className="header-actions">
+          <a
+            href="https://github.com/Govindrajewar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="icon-btn"
+            title="GitHub"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/govind-rajewar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="icon-btn"
+            title="LinkedIn"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href={`${process.env.PUBLIC_URL}/resume.pdf`}
+            download
+            className="resume-btn-header"
+          >
+            <FaDownload /> Resume
+          </a>
         </div>
 
-        <div className={`nav-links ${isOpen ? "open" : ""}`}>
-          <Link to="/" onClick={() => setIsOpen(false)}>🏠 Home</Link>
-          <Link to="/experience" onClick={() => setIsOpen(false)}>📄 Experience</Link>
-          <Link to="/skills" onClick={() => setIsOpen(false)}>📋 Skills</Link>
-          <Link to="/projects" onClick={() => setIsOpen(false)}>💻 Projects</Link>
-          <Link to="/contact" onClick={() => setIsOpen(false)}>📞 Contact</Link>
-        </div>
-
-        <div className={`hamburger ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
+        <div
+          className={`hamburger ${isOpen ? "open" : ""}`}
+          onClick={() => setIsOpen(!isOpen)}
+        >
           <div className="bar"></div>
           <div className="bar"></div>
           <div className="bar"></div>
