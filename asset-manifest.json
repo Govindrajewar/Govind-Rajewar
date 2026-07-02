@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Govind-Rajewar/static/css/main.b5510bbe.css",
-    "main.js": "/Govind-Rajewar/static/js/main.adaea09f.js",
+    "main.css": "/Govind-Rajewar/static/css/main.19245c93.css",
+    "main.js": "/Govind-Rajewar/static/js/main.d18faa1a.js",
     "static/js/453.acd06aed.chunk.js": "/Govind-Rajewar/static/js/453.acd06aed.chunk.js",
-    "static/media/webstory.png": "/Govind-Rajewar/static/media/webstory.81ff6aeb2ff2a2b36adf.png",
-    "static/media/formBot.png": "/Govind-Rajewar/static/media/formBot.5ae7011a52b807b4384b.png",
+    "static/media/webstory.png": "/Govind-Rajewar/static/media/webstory.0e937dd517d63f1e9a93.png",
+    "static/media/quizzie.png": "/Govind-Rajewar/static/media/quizzie.a4080d5544ddee53324e.png",
+    "static/media/formbot.png": "/Govind-Rajewar/static/media/formbot.8b35b9d72eea61317d44.png",
     "static/media/profile.jpg": "/Govind-Rajewar/static/media/profile.6cacccd0ed7c70da9e04.jpg",
-    "static/media/quizzie.png": "/Govind-Rajewar/static/media/quizzie.79ed2df6997eb3b04cae.png",
     "index.html": "/Govind-Rajewar/index.html",
-    "main.b5510bbe.css.map": "/Govind-Rajewar/static/css/main.b5510bbe.css.map",
-    "main.adaea09f.js.map": "/Govind-Rajewar/static/js/main.adaea09f.js.map",
+    "main.19245c93.css.map": "/Govind-Rajewar/static/css/main.19245c93.css.map",
+    "main.d18faa1a.js.map": "/Govind-Rajewar/static/js/main.d18faa1a.js.map",
     "453.acd06aed.chunk.js.map": "/Govind-Rajewar/static/js/453.acd06aed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5510bbe.css",
-    "static/js/main.adaea09f.js"
+    "static/css/main.19245c93.css",
+    "static/js/main.d18faa1a.js"
   ]
 }
