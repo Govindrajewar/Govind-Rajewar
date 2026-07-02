@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { FaCode, FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
+import { FaCode, FaGithub, FaLinkedin, FaDownload, FaSun, FaMoon } from "react-icons/fa";
 import "../style/Header.css";
 
 const navLinks = [
@@ -13,9 +13,19 @@ const navLinks = [
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [theme, setTheme] = useState(
+    () => document.documentElement.getAttribute("data-theme") || "dark"
+  );
   const location = useLocation();
 
   const closeMenu = () => setIsOpen(false);
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  const toggleTheme = () => setTheme((t) => (t === "dark" ? "light" : "dark"));
 
   return (
     <header className="header">
@@ -39,6 +49,15 @@ function Header() {
         </nav>
 
         <div className="header-actions">
+          <button
+            type="button"
+            className="icon-btn theme-toggle"
+            onClick={toggleTheme}
+            title={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+            aria-label="Toggle theme"
+          >
+            {theme === "dark" ? <FaSun /> : <FaMoon />}
+          </button>
           <a
             href="https://github.com/Govindrajewar"
             target="_blank"
@@ -58,7 +77,7 @@ function Header() {
             <FaLinkedin />
           </a>
           <a
-            href={`${process.env.PUBLIC_URL}/resume.pdf`}
+            href={`${process.env.PUBLIC_URL}/Govind_Rajewar_Resume.pdf`}
             download
             className="resume-btn-header"
           >

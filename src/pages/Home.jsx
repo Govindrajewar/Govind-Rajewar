@@ -61,13 +61,13 @@ function Home() {
       </p>
 
       <p className="hero-description">
-        Full Stack Developer with 3.6+ years building scalable, high-performance
+        Full Stack Developer with 4+ years building scalable, high-performance
         web applications and APIs serving 50K+ users in production.
       </p>
 
       <div className="stats-row">
         <div className="stat-item">
-          <span className="stat-number">3.6+</span>
+          <span className="stat-number">4+</span>
           <span className="stat-label">Years Experience</span>
         </div>
         <div className="stat-divider"></div>
@@ -88,7 +88,7 @@ function Home() {
             <MdEmail /> Contact Me
           </button>
         </Link>
-        <a href={`${process.env.PUBLIC_URL}/resume.pdf`} download>
+        <a href={`${process.env.PUBLIC_URL}/Govind_Rajewar_Resume.pdf`} download>
           <button className="btn resume-btn">
             <FaDownload /> Download Resume
           </button>
