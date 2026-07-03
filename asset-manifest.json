@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Govind-Rajewar/static/css/main.19245c93.css",
-    "main.js": "/Govind-Rajewar/static/js/main.d18faa1a.js",
+    "main.js": "/Govind-Rajewar/static/js/main.7b750b60.js",
     "static/js/453.acd06aed.chunk.js": "/Govind-Rajewar/static/js/453.acd06aed.chunk.js",
     "static/media/webstory.png": "/Govind-Rajewar/static/media/webstory.0e937dd517d63f1e9a93.png",
     "static/media/quizzie.png": "/Govind-Rajewar/static/media/quizzie.a4080d5544ddee53324e.png",
@@ -9,11 +9,11 @@
     "static/media/profile.jpg": "/Govind-Rajewar/static/media/profile.6cacccd0ed7c70da9e04.jpg",
     "index.html": "/Govind-Rajewar/index.html",
     "main.19245c93.css.map": "/Govind-Rajewar/static/css/main.19245c93.css.map",
-    "main.d18faa1a.js.map": "/Govind-Rajewar/static/js/main.d18faa1a.js.map",
+    "main.7b750b60.js.map": "/Govind-Rajewar/static/js/main.7b750b60.js.map",
     "453.acd06aed.chunk.js.map": "/Govind-Rajewar/static/js/453.acd06aed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19245c93.css",
-    "static/js/main.d18faa1a.js"
+    "static/js/main.7b750b60.js"
   ]
 }
